@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Evan Tingle</title>
+
+<link rel="stylesheet" type="text/css" href="new_site.css" >
+<link rel="stylesheet" href="./font-awesome-4.6.3/css/font-awesome.min.css">
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script>
+        $(function() {
+          $('a[href*=#]').click(function() {
+            event.preventDefault();
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            $('.parallax').animate({scrollTop: target[0].offsetTop}, 1000);
+            return true;
+          });
+        });
+      </script>
+</head>
+
+<body>
+
+  <div class="nav">
+    <ul id="navigation">
+    <li><a href="#about">About</a></li>
+    <li><a href="#resume">Resume</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  </div>
+
+
+  <div class="footer">
+<a>evantingle.com</a>
+  </div>
+
+  <div class="parallax">
+    <div id="about" class="parallax__group">
+      <div class="parallax__layer parallax__layer--base">
+          <div class="content">
+<ul>
+
+        <li class="title">Evan Tingle</li>
+        <li class="about_image"><img class="img-circle" src="me.jpg"></li>
+                <li class="about_text">I work for the <span class="italic">Chandra</span> X-ray Observatory at the Harvard-Smithsonian Center for Astrophysics. </li>
+       </div>
+      </div>
+    </div>
+    
+    <div id="group2" class="parallax__group">
+      <div class="parallax__layer parallax__layer--base"></div>
+      <div class="parallax__layer parallax__layer--back"></div>
+    </div> 
+    <div id="resume" class="parallax__group">
+      <div class="parallax__layer parallax__layer--base">
+        <div class="content">
+        <ul class="resume">
+<li class="title">Technical Skills</li>
+
+<li class="tech">Languages:</li>
+<li class="tech_desc">Python, PHP, Perl, C, Java</li>
+<li class="tech">Database:</li>
+<li class="tech_desc">SQL, mySQL, PL/SQL, Oracle DBA, ColdFusion</li>
+<li class="tech">Web:</li>
+<li class="tech_desc">HTML, XML, CSS, JavaScript, jQuery, Apache, Adobe Creative Suite</li>
+<li class="tech">Systems:</li>
+<li class="tech_desc">Mac, PC, Unix, Linux, Solaris</li>
+
+
+          <li class="title">Resume</li>
+          <li class="site">Chandra X-ray Center, Harvard-Smithsonian Center for Astrophysics</li>
+        <li class="year">2009-Present</li>
+        <li class="position">IT/Data Specialist</li>
+        <li class="description">Conducted statistical research on Chandra proposal trends</li>
+
+  <li class="description">Represented Chandra at biannual astronomical conventions</li>
+  <li class="description">Created, edited and maintained databases, scripts, and webpages relevant to CDO</li>
+  <li class="description">Worked on a multi-institution collaboration of Cepheid variable star research</li>
+  <li class="description">Edited and designed annual Chandra Newsletter</li>
+
+        <li class="site">Wesleyan University</li>
+        <li class="year">2006-2009</li>
+        <li class="position">Research Assistant</li>
+<li class="description">Designed, implemented, and maintained data reduction pipeline</li>
+<li class="description">Created, edited and maintained data analysis scripts</li>
+<li class="description">Conducted public observing and tours of Van Vleck Observatory</li>
+<li class="description">Observed various objects, including galaxies and T Tauri stars</li>
+
+        <li class="title">Education</li>
+        <li class="site">Harvard University, School of Continuing Education</li>
+        <li class="year">2010-2016</li>
+        <li class="position">M.L.A., Information Management Systems</li>
+
+        <li class="site">Wesleyan University</li>
+        <li class="year">2008-2009</li>
+        <li class="position">M.A., Astronomy</li>
+        <li class="description">Thesis Title: "CCD Photometry of BM Orionis"</li>
+
+        <li class="site">Wesleyan University</li>
+        <li class="year">2004-2008</li>
+        <li class="position">B.A., Astronomy</li>
+        <li class="description">Thesis Title: "Observations of the Solar Limb with TRACE and SUMER"</li>
+        <li class="description">High Honors</li>
+      </div>
+
+      </div>
+    </div>
+    
+    <div id="group4" class="parallax__group">
+      <div class="parallax__layer parallax__layer--base"></div>
+      <div class="parallax__layer parallax__layer--back"></div>
+      <div class="parallax__layer parallax__layer--deep"></div>
+    </div>
+
+    <div id="projects" class="parallax__group">
+      <div class="parallax__layer parallax__layer--base">
+        <div class="content">
+          <ul class="projects">
+            <li class="title">Projects</li>
+                        <li class="project_image"><img class="img-rounded" src="beersimple.png"></li>
+                        <li class="project_desc"><span class="project_title">BeerSimple</span> is a web app created using the Laravel PHP framework to catalog and rank beers. With an exhaustive list of beers compiled using Python's Beautiful Soup library, BeerSimple allows users to rank beers they have tried as well as  </li>
+                        <li class="project_image"><img class="img-rounded" src="gender_stats.png"></li>
+                        <li class="project_desc">NASA Headquarters asked the <span class="italic">Chandra</span> Director's Office if a gender discrepancy existed in awarded proposal time on the telescope. Compiling the <span class="project_title italic">Chandra</span><span class="project_title"> Gender Statistics</span> entailed the creation of databases, data mining, data entry, statistical analysis, and data visualization.</li>
+                        <li class="project_image"><img class="img-rounded" src="katelevy.jpg"></li>
+                        <li class="project_desc"><span class="project_title">katherinelevy.com</span> is my wife's bookbinding portfolio website. It uses a standard responsive Bootstrap template that has been modified to her specifications.</li>
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="group6" class="parallax__group">
+      <div class="parallax__layer parallax__layer--back"></div>
+      <div class="parallax__layer parallax__layer--base"></div>
+    </div>
+
+    <div id="contact" class="parallax__group">
+      <div class="parallax__layer parallax__layer--base">
+        <div class="content">
+        <ul>
+          <li class="title">Contact</li>
+          <li class="icons">
+                <a href="mailto:evan.tingle@gmail.com"><i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/evan-tingle-34019611"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/tinglerrr"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/tinglerrr/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+            </li>
+            <li class="about_image"><img class="img-circle" src="thelma.jpg"></li>
+
+
+        </ul>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+
+</body>
+</html>
