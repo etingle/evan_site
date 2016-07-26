@@ -6,8 +6,9 @@
 <meta name="viewport" content="width=device-width">
 <title>Evan Tingle</title>
 
-<link rel="stylesheet" type="text/css" href="new_site.css" >
-<link rel="stylesheet" href="./font-awesome-4.6.3/css/font-awesome.min.css">
+<link rel="icon" type="image/png" href="favicon.png"/>
+<link rel="stylesheet" type="text/css" href="./css/new_site.css"/>
+<link rel="stylesheet" href="./css/font-awesome-4.6.3/css/font-awesome.min.css"/>
    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
       <script>
         $(function() {
@@ -34,20 +35,16 @@
 
   </div>
 
-
-  <div class="footer">
-<a>evantingle.com</a>
-  </div>
-
   <div class="parallax">
     <div id="about" class="parallax__group">
       <div class="parallax__layer parallax__layer--base">
           <div class="content">
-<ul>
+<ul class="about">
 
         <li class="title">Evan Tingle</li>
-        <li class="about_image"><img class="img-circle" src="me.jpg"></li>
-                <li class="about_text">I work for the <span class="italic">Chandra</span> X-ray Observatory at the Harvard-Smithsonian Center for Astrophysics. </li>
+        <li class="about_image"><img class="img-circle" src="./images/me.jpg"></li>
+                <li class="about_text">I'm an astrophysicist/technical assistant working in the Director's Office for the <span class="italic">Chandra</span> X-ray Observatory. When I'm not looking at stars, I maintain databases, manage webpages, and research the non-astronomical aspects of X-ray astronomy.</li>
+                <li class="about_text">I live in Somerville with my wife and hound.</li>
        </div>
       </div>
     </div>
@@ -114,7 +111,6 @@
     <div id="group4" class="parallax__group">
       <div class="parallax__layer parallax__layer--base"></div>
       <div class="parallax__layer parallax__layer--back"></div>
-      <div class="parallax__layer parallax__layer--deep"></div>
     </div>
 
     <div id="projects" class="parallax__group">
@@ -122,12 +118,15 @@
         <div class="content">
           <ul class="projects">
             <li class="title">Projects</li>
-                        <li class="project_image"><img class="img-rounded" src="beersimple.png"></li>
-                        <li class="project_desc"><span class="project_title">BeerSimple</span> is a web app created using the Laravel PHP framework to catalog and rank beers. With an exhaustive list of beers compiled using Python's Beautiful Soup library, BeerSimple allows users to rank beers they have tried as well as  </li>
-                        <li class="project_image"><img class="img-rounded" src="gender_stats.png"></li>
-                        <li class="project_desc">NASA Headquarters asked the <span class="italic">Chandra</span> Director's Office if a gender discrepancy existed in awarded proposal time on the telescope. Compiling the <span class="project_title italic">Chandra</span><span class="project_title"> Gender Statistics</span> entailed the creation of databases, data mining, data entry, statistical analysis, and data visualization.</li>
-                        <li class="project_image"><img class="img-rounded" src="katelevy.jpg"></li>
-                        <li class="project_desc"><span class="project_title">katherinelevy.com</span> is my wife's bookbinding portfolio website. It uses a standard responsive Bootstrap template that has been modified to her specifications.</li>
+              <li class="project_image"><img class="img-rounded" src="./images/cepheid.png"></li>
+                <li class="project_desc">For the last several years I have been doing research on <span class="project_title">Cepheid companion stars</span>. Using <span class="italic">Hubble</span> observations of ~70 Cepheids, we are looking for young companion stars to then observe in the X-ray band with <span class="italic">Chandra</span> and XMM-<span class="italic">Newton</span>. This tells us how these stars are formed, and gives insight into overall stellar formation.</li>
+                <li class="project_image"><img class="img-rounded" src="./images/beersimple.png"></li>
+                <li class="project_desc"><span class="project_title">BeerSimple</span> is a web app created using the Laravel PHP framework to catalog and rank beers. With an exhaustive list of beers compiled using Python's Beautiful Soup library, BeerSimple allows users to rank beers as well as view the site's most popular.</li>
+                <li class="project_image"><img class="img-rounded" src="./images/gender_stats.png"></li>
+                <li class="project_desc">NASA Headquarters tasked the <span class="italic">Chandra</span> Director's Office to determine if gender discrepancy existed in awarded proposal time on the telescope. Compiling the <span class="project_title italic">Chandra</span><span class="project_title"> Gender Statistics</span> entailed the creation of databases, data mining, data entry, statistical analysis, and data visualization.</li>
+                <li class="project_image"><img class="img-rounded" src="./images/katelevy.jpg"></li>
+                <li class="project_desc"><span class="project_title">katherinelevy.com</span> is my wife's bookbinding portfolio website. It uses a standard responsive Bootstrap template that has been modified to her specifications.</li>
+                        
 
 
           </ul>
@@ -143,15 +142,16 @@
     <div id="contact" class="parallax__group">
       <div class="parallax__layer parallax__layer--base">
         <div class="content">
-        <ul>
+        <ul class="content">
           <li class="title">Contact</li>
           <li class="icons">
+                <p id="email">evan.<span style="display:none;">(remove text in parentheses)</span>tingle@gmail<span style="display:none;">(remove text in parentheses)</span>.com</p>
                 <a href="mailto:evan.tingle@gmail.com"><i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i></a>
                 <a href="https://www.linkedin.com/in/evan-tingle-34019611"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
                 <a href="https://twitter.com/tinglerrr"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
                 <a href="https://www.instagram.com/tinglerrr/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
             </li>
-            <li class="about_image"><img class="img-circle" src="thelma.jpg"></li>
+            <li class="about_image"><img class="img-circle" src="./images/thelma.jpg"></li>
 
 
         </ul>
