@@ -162,6 +162,10 @@ li.tech_desc {font-size:50%;}
 }
 .project_desc{float:left; clear:right; max-width:50%; margin-left: 15px;
 }
+.project_desc a {color:black; text-decoration: none;}
+.project_desc a:hover {text-decoration: underline;}
+
+
 .project_title{font-weight:bold;}
 
 
