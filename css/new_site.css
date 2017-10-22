@@ -151,7 +151,7 @@ li.about_text {font-size: 65%;
   height:auto;
 }
 .site{float:left; clear:left; width:75%;font-weight:bold; padding-top:10px;}
-.year{float:right; clear:right; width:25%;font-weight:bold;padding-top:10px;}
+.year{float:left; clear:right; width:15%;font-weight:bold;padding-top:10px;text-align: right}
 .position{float:left; clear:left; font-style:italic;}
 .description{float:left;clear:left;}
 li.description {font-size:45%;}
@@ -181,7 +181,7 @@ li.tech_desc {font-size:50%;}
 
 
 .project_title{font-weight:bold;}
-
+.link {text-decoration: underline;}
 
 .projects {overflow:hidden; padding-bottom:20px;}
 .projects li {display:block;}
