@@ -1,0 +1,8 @@
+body {background-color:#5FBF7E;
+   	font: 100% / 1.5 Arial;
+  }
+
+ul {list-style-type: none;}
+li {font-size:130%;
+	margin-top:10px;}
+.sub li{font-size:100%;}
